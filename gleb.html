@@ -1,29 +1,147 @@
-!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="ru">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Моя первая веб-страница</title>
-    <style>
+    <title>История Испании</title>
+    <style type="text/css">
         body {
+            background-color: #f0f8ff; /* светло-голубой фон */
+            color: #333; /* темный текст для контраста */
             font-family: Arial, sans-serif;
-            line-height: 1.6;
+            line-height: 1.6em;
+            padding: 0;
             margin: 0;
+        }
+
+        h1, h2 {
+            text-align: center;
+            color: #0066cc; /* ярко-синий цвет для заголовков */
+        }
+
+        .header {
+            background-color: #003366; /* темно-синий фон для шапки */
+            color: white;
+            padding: 10px 20px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .logo {
+            font-size: 1.5em;
+            font-weight: bold;
+        }
+
+        .nav {
+            display: flex;
+            gap: 20px;
+        }
+
+        .nav a {
+            color: white;
+            text-decoration: none;
+        }
+
+        .nav a:hover {
+            text-decoration: underline;
+        }
+
+        .container {
+            max-width: 800px;
+            margin: 20px auto;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
             padding: 20px;
-            background-color: #f4f4f4;
-            color: #333;
+            background-color: white; /* белый фон для основного контента */
         }
-        h1 {
-            color: #444;
+
+        figure {
+            text-align: center;
+            margin-top: 20px;
         }
-        p {
+
+        figcaption {
+            font-style: italic;
+            color: #666; /* серый цвет для подписей */
+        }
+
+        img {
+            display: block;
+            width: 100%;
+            height: auto;
             margin-bottom: 10px;
+            border-radius: 5px;
+        }
+
+        .footer {
+            background-color: #003366; /* темно-синий фон для подвала */
+            color: white;
+            text-align: center;
+            padding: 10px;
+            margin-top: 20px;
+        }
+
+        .footer a {
+            color: #99ccff; /* светло-голубой цвет для ссылок в подвале */
+            text-decoration: none;
+        }
+
+        .footer a:hover {
+            text-decoration: underline;
         }
     </style>
 </head>
 <body>
-    <h1>Добро пожаловать на мою первую веб-страницу!</h1>
-    <p>Это моя первая попытка создать веб-страницу с использованием HTML.</p>
-    <p>Здесь я могу делиться своими мыслями, проектами и всем, что считаю интересным.</p>
-    <p>Спасибо за посещение!</p>
+
+<header class="header">
+    <div class="logo">История Испании</div>
+    <nav class="nav">
+        <a href="#ancient">Древняя история</a>
+        <a href="#medieval">Средневековье</a>
+        <a href="#colonial">Колониальная империя</a>
+        <a href="#modern">Современная Испания</a>
+    </nav>
+</header>
+
+<div class="container">
+    <h1>История Испании</h1>
+    <p><strong>Испания — страна с богатой многовековой историей.</strong></p>
+
+    <h2 id="ancient">Древняя история</h2>
+    <p>Испания имеет богатую историю, начиная с древнейших времен...</p>
+    <figure>
+        <img src="Античная_Испания.jpg" alt="Античная Испания">
+        <figcaption>Античная Испания</figcaption>
+    </figure>
+
+    <h2 id="medieval">Средневековье</h2>
+    <p>В Средние века Испания была ареной борьбы между христианами и мусульманами...</p>
+    <figure>
+        <img src="https://milkov.ru/images/x_o7z7gl-caceres.jpg" alt="Средневековая Испания">
+        <figcaption>Средневековая Испания</figcaption>
+    </figure>
+
+    <h2 id="colonial">Колониальная империя</h2>
+    <p>После завершения Реконкисты Испания вступила в эпоху великих географических открытий...</p>
+    <figure>
+        <img src="https://all-andorra.com/wp-content/uploads/2021/11/Burgos_holidays-min.png" alt="Колониальная Испания">
+        <figcaption>Колониальная Испания</figcaption>
+    </figure>
+
+    <h2 id="modern">Современная Испания</h2>
+    <p>В 19-м и 20-м веках Испания пережила множество политических и социальных потрясений...</p>
+    <figure>
+        <img src="your-image-url-here.jpg" alt="Современная Испания">
+        <figcaption>Современная Испания</figcaption>
+    </figure>
+</div>
+
+<footer class="footer">
+    <p>&copy; 2023 История Испании. Все права защищены.</p>В Средние века Испания была ареной борьбы между христианами и мусульманами. В 711 году мавры вторглись на Пиренейский полуостров и основали Аль-Андалус. В течение следующих нескольких веков христианские королевства на севере вели Реконкисту, чтобы вернуть контроль над полуостровом. В 1469 году брак Изабеллы I Кастильс
+    <p>Контактная информация: <a href="mailto:info@historyofspain.com">info@historyofspain.com</a></p>
+    <p><a href="privacy.html">Политика конфиденциальности</a> | <a href="terms.html">Условия использования</a></p>
+</footer>
+
 </body>
+</html>
+.</p>
